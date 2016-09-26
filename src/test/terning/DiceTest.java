@@ -1,6 +1,7 @@
-package terning;
+package test.terning;
 
 import org.junit.Test;
+import terning.Dice;
 
 import static org.junit.Assert.*;
 
