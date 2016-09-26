@@ -44,6 +44,12 @@ public class DiceTest {
             }
         }
         System.out.println("count1: "+ count1 + "\ncount2:" + count2 + "\ncount3:" + count3 + "\ncount4:" + count4 + "\ncount5:" + count5 + "\ncount6:" + count6 + "\ntotal:" + total);
-        assertTrue(total == 60000);
+        assertEquals(60000, total, 0);
+        assertEquals(10000, count1, 400);
+        assertEquals(10000, count2, 400);
+        assertEquals(10000, count3, 400);
+        assertEquals(10000, count4, 400);
+        assertEquals(10000, count5, 400);
+        assertEquals(10000, count6, 400);
     }
 }
