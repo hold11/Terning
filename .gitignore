@@ -120,7 +120,7 @@ local.properties
 .recommenders
 
 # Eclipse Core
-.project
+#.project #outcommenting to support sharing Eclipse project.
 
 # External tool builders
 .externalToolBuilders/
