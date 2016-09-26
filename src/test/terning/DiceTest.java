@@ -45,12 +45,12 @@ public class DiceTest {
             }
         }
         System.out.println("count1: "+ count1 + "\ncount2:" + count2 + "\ncount3:" + count3 + "\ncount4:" + count4 + "\ncount5:" + count5 + "\ncount6:" + count6 + "\ntotal:" + total);
-        assertEquals(60000, total, 0);
-        assertEquals(10000, count1, 400);
-        assertEquals(10000, count2, 400);
-        assertEquals(10000, count3, 400);
-        assertEquals(10000, count4, 400);
-        assertEquals(10000, count5, 400);
-        assertEquals(10000, count6, 400);
+        assertEquals(60000, total, 0);      // Tests whether total dice rolls equals 60000.
+        assertEquals(10000, count1, 400);   // Tests if count1 is 10000 ± 400
+        assertEquals(10000, count2, 400);   // Tests if count2 is 10000 ± 400
+        assertEquals(10000, count3, 400);   // Tests if count3 is 10000 ± 400
+        assertEquals(10000, count4, 400);   // Tests if count4 is 10000 ± 400
+        assertEquals(10000, count5, 400);   // Tests if count5 is 10000 ± 400
+        assertEquals(10000, count6, 400);   // Tests if count6 is 10000 ± 400
     }
 }
