@@ -101,7 +101,7 @@ fabric.properties
 
 # *.iml
 # modules.xml
-# .idea/misc.xml 
+# .idea/misc.xml
 # *.ipr
 
 
@@ -120,7 +120,7 @@ local.properties
 .recommenders
 
 # Eclipse Core
-.project
+#.project #outcommenting to support sharing Eclipse project.
 
 # External tool builders
 .externalToolBuilders/
@@ -135,7 +135,7 @@ local.properties
 .cproject
 
 # JDT-specific (Eclipse Java Development Tools)
-.classpath
+#.classpath #outcommenting to support sharing Eclipse project.
 
 # Java annotation processor (APT)
 .factorypath
